@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMagicNow</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+      max-width: 400px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+    .button {
+      display: block;
+      background-color: #007bff;
+      color: white;
+      padding: 15px;
+      margin: 10px 0;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to TMagicNow!</h1>
+    <p>Street magic that amazes, connects, and inspires.</p>
+    <a class="button" href="https://venmo.com/code?user_id=1903352044584960799&created=1749756688" target="_blank">💸 Tip or Pay for a Show</a>
+    <a class="button" href="https://www.tmagicnow.com" target="_blank">🌐 Visit My Website</a>
+    <div class="footer">
+      &copy; 2025 TMagicNow
+    </div>
+  </div>
+</body>
+</html>
